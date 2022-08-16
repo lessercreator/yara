@@ -1,9 +1,9 @@
 import "pe"
 
-rule apt_Lua
+rule apt_RU_AsylumAbuscade_Lua
 {
 	meta:
-		hash = "*****"
+		hash = "737f08702f00e78dbe78acbeda63b73d04c1f8e741c5282a9aa1409369b6efa8"
 	strings:
         $weirdDs = /[xt]?DDD[DGpH@x]+/
     condition:
